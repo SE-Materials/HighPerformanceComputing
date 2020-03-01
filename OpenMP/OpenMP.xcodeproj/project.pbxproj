@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E212F458240A9B7200A33240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E212F457240A9B7200A33240 /* main.cpp */; };
+		E212F460240AA83900A33240 /* libomp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E212F45F240AA83900A33240 /* libomp.dylib */; };
+		E212F473240AAD8A00A33240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E212F472240AAD8A00A33240 /* main.cpp */; };
+		E212F477240AADF500A33240 /* libomp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E212F45F240AA83900A33240 /* libomp.dylib */; };
+		E212F47F240AB80100A33240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E212F47E240AB80100A33240 /* main.cpp */; };
+		E212F483240AB82600A33240 /* libomp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E212F45F240AA83900A33240 /* libomp.dylib */; };
+		E2757515240B09A70039C8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2757514240B09A70039C8E1 /* main.cpp */; };
+		E2757519240B09DC0039C8E1 /* libomp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E212F45F240AA83900A33240 /* libomp.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E212F452240A9B7200A33240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E212F46E240AAD8A00A33240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E212F47A240AB80100A33240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E2757510240B09A70039C8E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E212F454240A9B7200A33240 /* OpenMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212F457240A9B7200A33240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E212F45F240AA83900A33240 /* libomp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libomp.dylib; path = ../../../../../../../usr/local/Cellar/llvm/9.0.1/lib/libomp.dylib; sourceTree = "<group>"; };
+		E212F470240AAD8A00A33240 /* WorkSharing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WorkSharing; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212F472240AAD8A00A33240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E212F47C240AB80100A33240 /* Synchronization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Synchronization; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212F47E240AB80100A33240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2757512240B09A70039C8E1 /* DataSharing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataSharing; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2757514240B09A70039C8E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E212F451240A9B7200A33240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F460240AA83900A33240 /* libomp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212F46D240AAD8A00A33240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F477240AADF500A33240 /* libomp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212F479240AB80100A33240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F483240AB82600A33240 /* libomp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275750F240B09A70039C8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2757519240B09DC0039C8E1 /* libomp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E212F44B240A9B7200A33240 = {
+			isa = PBXGroup;
+			children = (
+				E212F456240A9B7200A33240 /* OpenMP */,
+				E212F471240AAD8A00A33240 /* WorkSharing */,
+				E212F47D240AB80100A33240 /* Synchronization */,
+				E2757513240B09A70039C8E1 /* DataSharing */,
+				E212F455240A9B7200A33240 /* Products */,
+				E212F45E240AA83900A33240 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E212F455240A9B7200A33240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E212F454240A9B7200A33240 /* OpenMP */,
+				E212F470240AAD8A00A33240 /* WorkSharing */,
+				E212F47C240AB80100A33240 /* Synchronization */,
+				E2757512240B09A70039C8E1 /* DataSharing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E212F456240A9B7200A33240 /* OpenMP */ = {
+			isa = PBXGroup;
+			children = (
+				E212F457240A9B7200A33240 /* main.cpp */,
+			);
+			path = OpenMP;
+			sourceTree = "<group>";
+		};
+		E212F45E240AA83900A33240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E212F45F240AA83900A33240 /* libomp.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E212F471240AAD8A00A33240 /* WorkSharing */ = {
+			isa = PBXGroup;
+			children = (
+				E212F472240AAD8A00A33240 /* main.cpp */,
+			);
+			path = WorkSharing;
+			sourceTree = "<group>";
+		};
+		E212F47D240AB80100A33240 /* Synchronization */ = {
+			isa = PBXGroup;
+			children = (
+				E212F47E240AB80100A33240 /* main.cpp */,
+			);
+			path = Synchronization;
+			sourceTree = "<group>";
+		};
+		E2757513240B09A70039C8E1 /* DataSharing */ = {
+			isa = PBXGroup;
+			children = (
+				E2757514240B09A70039C8E1 /* main.cpp */,
+			);
+			path = DataSharing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E212F453240A9B7200A33240 /* OpenMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212F45B240A9B7200A33240 /* Build configuration list for PBXNativeTarget "OpenMP" */;
+			buildPhases = (
+				E212F450240A9B7200A33240 /* Sources */,
+				E212F451240A9B7200A33240 /* Frameworks */,
+				E212F452240A9B7200A33240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenMP;
+			productName = OpenMP;
+			productReference = E212F454240A9B7200A33240 /* OpenMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		E212F46F240AAD8A00A33240 /* WorkSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212F474240AAD8A00A33240 /* Build configuration list for PBXNativeTarget "WorkSharing" */;
+			buildPhases = (
+				E212F46C240AAD8A00A33240 /* Sources */,
+				E212F46D240AAD8A00A33240 /* Frameworks */,
+				E212F46E240AAD8A00A33240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkSharing;
+			productName = WorkSharing;
+			productReference = E212F470240AAD8A00A33240 /* WorkSharing */;
+			productType = "com.apple.product-type.tool";
+		};
+		E212F47B240AB80100A33240 /* Synchronization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212F480240AB80100A33240 /* Build configuration list for PBXNativeTarget "Synchronization" */;
+			buildPhases = (
+				E212F478240AB80100A33240 /* Sources */,
+				E212F479240AB80100A33240 /* Frameworks */,
+				E212F47A240AB80100A33240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synchronization;
+			productName = Synchronization;
+			productReference = E212F47C240AB80100A33240 /* Synchronization */;
+			productType = "com.apple.product-type.tool";
+		};
+		E2757511240B09A70039C8E1 /* DataSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2757518240B09A70039C8E1 /* Build configuration list for PBXNativeTarget "DataSharing" */;
+			buildPhases = (
+				E275750E240B09A70039C8E1 /* Sources */,
+				E275750F240B09A70039C8E1 /* Frameworks */,
+				E2757510240B09A70039C8E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataSharing;
+			productName = DataSharing;
+			productReference = E2757512240B09A70039C8E1 /* DataSharing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E212F44C240A9B7200A33240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aniket Bhushan";
+				TargetAttributes = {
+					E212F453240A9B7200A33240 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E212F46F240AAD8A00A33240 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E212F47B240AB80100A33240 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E2757511240B09A70039C8E1 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = E212F44F240A9B7200A33240 /* Build configuration list for PBXProject "OpenMP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E212F44B240A9B7200A33240;
+			productRefGroup = E212F455240A9B7200A33240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E212F453240A9B7200A33240 /* OpenMP */,
+				E212F46F240AAD8A00A33240 /* WorkSharing */,
+				E212F47B240AB80100A33240 /* Synchronization */,
+				E2757511240B09A70039C8E1 /* DataSharing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E212F450240A9B7200A33240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F458240A9B7200A33240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212F46C240AAD8A00A33240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F473240AAD8A00A33240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212F478240AB80100A33240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212F47F240AB80100A33240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275750E240B09A70039C8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2757515240B09A70039C8E1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E212F459240A9B7200A33240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = /usr/local/opt/llvm/bin/clang;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/lib/clang/9.0.1/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/llvm/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fopenmp";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E212F45A240A9B7200A33240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = /usr/local/opt/llvm/bin/clang;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/lib/clang/9.0.1/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/llvm/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-fopenmp";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E212F45C240A9B7200A33240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /usr/local/opt/llvm/bin/clang;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/lib/clang/9.0.1/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/llvm/lib,
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				OTHER_CFLAGS = "-fopenmp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E212F45D240A9B7200A33240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /usr/local/opt/llvm/bin/clang;
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/lib/clang/9.0.1/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/llvm/lib,
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				OTHER_CFLAGS = "-fopenmp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E212F475240AAD8A00A33240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E212F476240AAD8A00A33240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E212F481240AB80100A33240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E212F482240AB80100A33240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2757516240B09A70039C8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2757517240B09A70039C8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/llvm/9.0.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E212F44F240A9B7200A33240 /* Build configuration list for PBXProject "OpenMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212F459240A9B7200A33240 /* Debug */,
+				E212F45A240A9B7200A33240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212F45B240A9B7200A33240 /* Build configuration list for PBXNativeTarget "OpenMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212F45C240A9B7200A33240 /* Debug */,
+				E212F45D240A9B7200A33240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212F474240AAD8A00A33240 /* Build configuration list for PBXNativeTarget "WorkSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212F475240AAD8A00A33240 /* Debug */,
+				E212F476240AAD8A00A33240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212F480240AB80100A33240 /* Build configuration list for PBXNativeTarget "Synchronization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212F481240AB80100A33240 /* Debug */,
+				E212F482240AB80100A33240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2757518240B09A70039C8E1 /* Build configuration list for PBXNativeTarget "DataSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2757516240B09A70039C8E1 /* Debug */,
+				E2757517240B09A70039C8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E212F44C240A9B7200A33240 /* Project object */;
+}
